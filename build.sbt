@@ -4,9 +4,9 @@ organization := "com.microsoft.sqlserver.jdbc.spark"
 
 version := "1.0.0"
 
-scalaVersion := "2.11.12"
+scalaVersion := "2.12.12"
 
-val sparkVersion = "2.4.0"
+val sparkVersion = "3.0"
 
 javacOptions ++= Seq("-source", "1.8", "-target", "1.8", "-Xlint")
 

@@ -348,3 +348,9 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+# Ignores target created from sbt package
+target
+
+# Ignores jetbrains projects Intellij
+.idea
